@@ -384,7 +384,7 @@ span {
 
     .image {
         margin-top: -1400px;
-        margin-left: 300px;
+        margin-left: 290px;
     }
 
     #explore {
@@ -463,7 +463,7 @@ span {
         margin-top: 50px;
         height: 350px;
         width: 350px;
-        margin-left: -85px;
+        margin-left: -98px;
         border-radius: 50%;
     }
 
@@ -750,7 +750,7 @@ h4 {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin-left: 75px;
+        margin-left: 90px;
         gap: 20px;
 
     }
@@ -773,7 +773,7 @@ h4 {
         display: flex;
         flex-direction: column;
         gap: 0px;
-        margin-left: 37px;
+        margin-left: 45px;
     }
 
     .ourproducts img {
@@ -912,7 +912,6 @@ h4 {
         width: 90%;
         height: 200vh;
         /* padding-top: 400px; */
-        margin-left: 12px;
         /* background-color: #000; */
     }
 
@@ -926,13 +925,13 @@ h4 {
 
         /* margin-top: 100px; */
         width: 330px;
-        margin-left: 22px;
+        margin-left: 17px;
         height: 650px;
 
     }
 
     .color {
-        margin-left: 22px;
+        margin-left: 17px;
         width: 330px;
         height: 400px;
 
@@ -1158,10 +1157,10 @@ h4 {
 
     .footer {
         height: 125vh;
-        width: 100%;
+        width: 95%;
         margin-top: 100px;
         /* background-color: rgb(255, 255, 255); */
-        margin-left: px;
+        margin-left: 9px;
 
     }
 
