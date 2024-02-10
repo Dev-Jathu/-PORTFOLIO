@@ -371,12 +371,11 @@ span {
         font-size: 23px;
         letter-spacing: 1px;
         line-height: 30px;
-        margin-left: 140px;
+        margin-left: 135px;
         margin-top: 50px;
         width: 300px;
-        text-align: left;
+        text-align: justify;
         font-weight: bold;
-
     }
 
     .image img {
@@ -482,11 +481,11 @@ span {
 
     .paraabout {
         font-size: 22px;
-        text-align: left;
+        text-align: justify;
         /* letter-spacing: 1px; */
-        margin-left: 152px;
+        margin-left: 140px;
         margin-top: 30px;
-        width: 65%;
+        width: 70%;
     }
 
 
@@ -723,7 +722,7 @@ h4 {
 
 @media(max-width:600px) {
     #product {
-        height: 220vh;
+        height: 300vh;
         width: 80%;
         padding-top: 20px;
         /* margin-top: 100px; */
@@ -904,7 +903,7 @@ h4 {
     .contactform {
         width: 90%;
         height: 200vh;
-        padding-top: 50px;
+        /* padding-top: 400px; */
         margin-left: -5px;
         /* background-color: #000; */
     }
