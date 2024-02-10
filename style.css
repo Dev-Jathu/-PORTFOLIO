@@ -344,7 +344,7 @@ span{
         display: flex;
         flex-direction: column;
         gap: 50px;
-        height: 120vh;
+        height: 150vh;
         margin-top: 50px;
         /* background-color: rgb(255, 255, 0); */
     }
@@ -353,7 +353,7 @@ span{
         font-size: 25px;
         letter-spacing: 3px;
         line-height: 40px;
-        text-align: justify;
+        text-align: center;
         margin-left: 135px;
         margin-top: 400px;
         width: 70%;
@@ -364,10 +364,11 @@ span{
         font-size: 23px;
         letter-spacing: 1px;
         line-height: 30px;
-        margin-left: 135px;
+        margin-left: 165px;
         margin-top: 50px;
         width: 60%;
         text-align: left;
+        font-weight: bold;
 
     }
 
@@ -381,7 +382,7 @@ span{
     }
 
     #explore {
-        margin-left: 130px;
+        margin-left: 225px;
         margin-top: 20px;
         font-size: 18px;
         width: 150px;
@@ -391,7 +392,193 @@ span{
     .icon{
         font-size: 4.3rem;
         padding-top:  30px;
-        padding-left: 128px;
+        padding-left: 190px;
         /* cursor: pointer; */
+    }
+}
+/* .aboutPAGE START */
+#aboutme{
+    height: 100vh;
+    width: 100%;
+    margin-left: 110px;
+}
+.about {
+    display: flex;
+    gap: 100px;
+}
+
+.aboutimage img {
+    margin-top: 150px;
+    width: 600px;
+    height: 700px;
+    border-radius: 10px;
+}
+
+
+.Headin-about {
+    margin-top: 130px;
+
+}
+
+.Headin-about .head1 {
+    font-size: 52px;
+    color:#27ae60;
+}
+
+.paraabout {
+    width: 90%;
+    font-size: 23px;
+    margin-top: 50px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+
+@media(max-width:600px) {
+    #aboutme{
+        height: 100vh;
+        width: 60%;
+        margin-left: 110px;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+        gap: 300px;
+        
+        /* background-color: #192a56; */
+    }
+
+    .aboutimage img {
+        margin-top: 50px;
+        height: 350px;
+        width: 350px;
+        margin-left: -100px;
+        border-radius: 50%;
+    }
+
+    .Headin-about {
+        margin-top: -250px;
+        margin-left: -220px;
+
+    }
+
+    .Headin-about .head1 {
+        font-size: 25px;
+        text-align: left;
+        margin-left: 230px;
+    }
+
+    .paraabout {
+        font-size: 22px;
+        text-align: left;
+        /* letter-spacing: 1px; */
+        margin-left: 152px;
+        margin-top: 30px;
+        width: 65%;
+    }
+   
+   
+}
+
+.skillsection{
+    grid-area: skillsect;
+    
+}
+.skillsection{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 60px;
+    margin-top: 20px;
+    margin-left: 520px;
+    width: 70%;
+}
+.skillsection .subject{
+    font-size: 18px;
+    font-weight: thin;
+    color: #aaabb0;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 100px;
+    margin-top: -400px;
+}
+.prograsbar{
+    width: 100%;
+    height: 16px;
+    background-color: #2b2a2f;
+    border-top:1px solid #000;
+    border-bottom: 1px solid #444;
+    border-radius: 15px;
+     
+}
+.prograsline{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #0011ff;
+    box-shadow: -1px -1px 2px teal,
+                 1px 1px 2px teal;
+    border-radius: 15px ;
+
+}
+.prograsline::after{
+    position: absolute;
+    content: attr(value);
+    top: -35px;
+    right: 0px;
+    transform: translateX(-50%);
+    color: #aaabb0;
+    font-size: 17px;
+
+}
+.btn1 button{
+    width: 250px;
+    padding: 8px 18px;
+    border:1px solid black;
+    border-radius: 25px;
+    font-size: 25px;
+    background-color: #2b2a2f;
+    color: #aaabb0;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-top: 50px;
+    
+   
+}
+.btn1 button:hover{
+    background-color: teal;
+    color: black;
+}
+@media(max-width:600px){
+    .skillsection{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 70px;
+        margin-top: 400px;
+        margin-left: -90px;
+        width: 70%;
+    }
+    .skillsection .subject{
+        font-size: 18px;
+        font-weight: thin;
+        color: #aaabb0;
+        padding-bottom: 5px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-left: 10px;
+        margin-top: -400px;
+    }
+    .prograsbar{
+        width: 100%;
+        height: 16px;
+        background-color: #2b2a2f;
+        border-top:1px solid #000;
+        border-bottom: 1px solid #444;
+        border-radius: 15px;
+         
+    }
+    .btn1 button{
+        margin-left: 22px;
     }
 }
