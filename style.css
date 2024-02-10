@@ -371,7 +371,7 @@ span {
         font-size: 23px;
         letter-spacing: 1px;
         line-height: 30px;
-        margin-left: 149px;
+        margin-left: 130px;
         margin-top: 50px;
         width: 300px;
         text-align: justify;
@@ -388,7 +388,7 @@ span {
     }
 
     #explore {
-        margin-left: 235px;
+        margin-left: 225px;
         margin-top: 20px;
         font-size: 18px;
         width: 130px;
@@ -399,7 +399,7 @@ span {
     .icon {
         font-size: 4.3rem;
         padding-top: 30px;
-        padding-left: 190px;
+        padding-left: 180px;
         /* cursor: pointer; */
     }
 }
@@ -461,9 +461,9 @@ span {
 
     .aboutimage img {
         margin-top: 50px;
-        height: 350px;
-        width: 350px;
-        margin-left: -98px;
+        height: 320px;
+        width: 320px;
+        margin-left: -90px;
         border-radius: 50%;
     }
 
@@ -476,16 +476,16 @@ span {
     .Headin-about .head1 {
         font-size: 45px;
         text-align: left;
-        margin-left: 190px;
+        margin-left: 170px;
     }
 
     .paraabout {
         font-size: 23px;
         text-align: justify;
         /* letter-spacing: 1px; */
-        margin-left: 150px;
+        margin-left: 130px;
         margin-top: 30px;
-        width: 70%;
+        width: 75%;
         letter-spacing: 1px;
         line-height: 35px;
     }
@@ -737,7 +737,7 @@ h4 {
     }
 
     .headding h1 {
-        margin-left: 60px;
+        margin-left: 42px;
         font-size: 32px;
         font-weight: bold;
         margin-top: 50px;
@@ -750,7 +750,7 @@ h4 {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin-left: 90px;
+        margin-left: 75px;
         gap: 20px;
 
     }
@@ -773,7 +773,7 @@ h4 {
         display: flex;
         flex-direction: column;
         gap: 0px;
-        margin-left: 45px;
+        margin-left: 37px;
     }
 
     .ourproducts img {
