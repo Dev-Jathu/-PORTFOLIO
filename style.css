@@ -371,7 +371,7 @@ span {
         font-size: 23px;
         letter-spacing: 1px;
         line-height: 30px;
-        margin-left: 135px;
+        margin-left: 149px;
         margin-top: 50px;
         width: 300px;
         text-align: justify;
@@ -384,11 +384,11 @@ span {
 
     .image {
         margin-top: -1400px;
-        margin-left: 280px;
+        margin-left: 300px;
     }
 
     #explore {
-        margin-left: 220px;
+        margin-left: 235px;
         margin-top: 20px;
         font-size: 18px;
         width: 130px;
@@ -399,7 +399,7 @@ span {
     .icon {
         font-size: 4.3rem;
         padding-top: 30px;
-        padding-left: 178px;
+        padding-left: 190px;
         /* cursor: pointer; */
     }
 }
@@ -446,7 +446,7 @@ span {
 
 @media(max-width:600px) {
     #aboutme {
-        height: 180vh;
+        height: 190vh;
         width: 60%;
         margin-left: 110px;
     }
@@ -461,9 +461,9 @@ span {
 
     .aboutimage img {
         margin-top: 50px;
-        height: 250px;
-        width: 250px;
-        margin-left: -50px;
+        height: 350px;
+        width: 350px;
+        margin-left: -85px;
         border-radius: 50%;
     }
 
@@ -474,18 +474,20 @@ span {
     }
 
     .Headin-about .head1 {
-        font-size: 25px;
+        font-size: 45px;
         text-align: left;
-        margin-left: 230px;
+        margin-left: 190px;
     }
 
     .paraabout {
-        font-size: 22px;
+        font-size: 23px;
         text-align: justify;
         /* letter-spacing: 1px; */
-        margin-left: 140px;
+        margin-left: 150px;
         margin-top: 30px;
         width: 70%;
+        letter-spacing: 1px;
+        line-height: 35px;
     }
 
 
@@ -554,8 +556,8 @@ span {
     border: 1px solid black;
     border-radius: 25px;
     font-size: 25px;
-    background-color: #2b2a2f;
-    color: #aaabb0;
+    background-color:#27ae60;
+    color: #000000;
     letter-spacing: 1px;
     cursor: pointer;
     transition: all 0.4s;
@@ -565,8 +567,9 @@ span {
 }
 
 .btn1 button:hover {
-    background-color: teal;
-    color: black;
+    background-color: #000;
+    text-transform: uppercase;
+    transition: 1.7s;
 }
 
 @media(max-width:600px) {
@@ -602,6 +605,11 @@ span {
 
     .btn1 button {
         margin-left: 22px;
+    }
+    .btn1 button {
+       margin-left: 35px;
+    
+    
     }
 }
 
@@ -729,7 +737,7 @@ h4 {
     }
 
     .headding h1 {
-        margin-left: 40px;
+        margin-left: 60px;
         font-size: 32px;
         font-weight: bold;
         margin-top: 50px;
@@ -742,7 +750,7 @@ h4 {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin-left: 65px;
+        margin-left: 75px;
         gap: 20px;
 
     }
@@ -904,7 +912,7 @@ h4 {
         width: 90%;
         height: 200vh;
         /* padding-top: 400px; */
-        margin-left: -5px;
+        margin-left: 12px;
         /* background-color: #000; */
     }
 
@@ -989,8 +997,8 @@ h4 {
         justify-content: center;
         margin-top: 50px;
         width: 90%;
-        margin-left: 32px;
-        width: 320px;
+        margin-left: 25px;
+        width: 329px;
     }
 }
 
