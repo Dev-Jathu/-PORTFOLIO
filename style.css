@@ -579,8 +579,8 @@ span {
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 70px;
-        margin-top: 400px;
-        margin-left: -90px;
+        margin-top: 470px;
+        margin-left: -100px;
         width: 70%;
     }
 
@@ -609,7 +609,7 @@ span {
         margin-left: 22px;
     }
     .btn1 button {
-       margin-left: 35px;
+       margin-left: 45px;
     
     
     }
@@ -626,7 +626,7 @@ span {
     text-align: center;
     font-size: 45px;
     font-weight: bold;
-    color:#27ae60;
+    color:rgb(52, 127, 157);
 }
 
 .buttonproject {
