@@ -408,6 +408,7 @@ span {
 #aboutme {
     height: 100vh;
     width: 100%;
+    
 
 }
 
@@ -418,8 +419,8 @@ span {
 
 .aboutimage img {
     margin-top: 150px;
-    width: 600px;
-    height: 650px;
+    width: 550px;
+    height: 550px;
     border-radius: 10px;
     margin-left: 200px;
 }
@@ -503,8 +504,8 @@ span {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 60px;
-    margin-top: 50px;
-    margin-left: 720px;
+    margin-top: 150px;
+    margin-left: 680px;
     width: 70%;
 }
 
@@ -728,7 +729,10 @@ h4 {
     text-transform: uppercase;
     box-shadow: 1rem 1rem 20px black;
 }
-
+.pro2{
+    width: 400px;
+    
+}
 @media(max-width:600px) {
     #product {
         height: 300vh;
@@ -779,7 +783,10 @@ h4 {
 
     .ourproducts img {
 
-        height: 135px;
+        height: 150px;
+    }
+    .pro2{
+        width: 325px;
     }
 
     h3 {
