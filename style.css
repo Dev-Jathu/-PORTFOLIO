@@ -626,7 +626,7 @@ span {
     text-align: center;
     font-size: 45px;
     font-weight: bold;
-    color: whitesmoke;
+    color:#27ae60;
 }
 
 .buttonproject {
@@ -641,18 +641,20 @@ span {
 .bu1 {
     width: 100px;
     height: 40px;
-    background-color: #27ae60;
+    background-color:rgb(52, 127, 157);
     font-size: 18px;
     font-weight: bold;
     gap: 50px;
     transition: 1.7s;
+    border-radius: 5px;
+    box-shadow: 1rem 1rem 20px;
+
 
 }
 
 .bu1:hover {
     cursor: pointer;
     text-transform: uppercase;
-    box-shadow: 1rem 1rem 20px;
     transition: 1.7s;
 }
 
@@ -715,13 +717,17 @@ h4 {
 .subproject {
     width: 100px;
     height: 40px;
-    background-color: #27ae60;
+    background-color:rgb(52, 127, 157);
     font-size: 18px;
     font-weight: bold;
     gap: 50px;
     transition: 1.7s;
     border-radius: 10px;
     margin-top: 20px;
+}
+
+.subproject a{
+    color: #000;
 }
 
 .subproject:hover {
@@ -816,7 +822,7 @@ h4 {
 }
 
 .color {
-    background-color: #27ae60;
+    background-color: rgb(80, 135, 156);
     height: 600px;
     padding-left: 100px;
     padding-top: 100px;
@@ -894,7 +900,7 @@ h4 {
 .postcomment {
     width: 200px;
     height: 70px;
-    background-color: #27ae60;
+    background-color:rgb(52, 127, 157);
     font-size: 22px;
     text-align: center;
     border-radius: 10px;
